@@ -6,7 +6,7 @@
   --borderRadius: 10px;
   --contentHeight: 30vh;
   --sectionWidth: 700px;
-  --transition: .3s;
+  --transition: 0.3s;
 }
 
 html {
@@ -17,7 +17,9 @@ html {
   height: 100%;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   color: var(--yangColor);
   font-size: inherit;
   font-family: inherit;
@@ -141,6 +143,7 @@ html {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
